@@ -87,3 +87,6 @@ hello1 = "Hello world from terraform by ashutoshh"
 
 <img src="cl1.png">
 
+
+### https://registry.terraform.io/providers/hashicorp/aws/latest
+
