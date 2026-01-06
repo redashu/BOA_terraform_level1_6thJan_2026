@@ -99,3 +99,33 @@ hello1 = "Hello world from terraform by ashutoshh"
   398  terraform plan 
   399  terraform apply 
 ```
+### terraform fmt 
+
+```
+ec2-user@ip-172-31-16-77 day1]$ terraform fmt 
+ec2.tf
+outputs.tf
+providers.tf
+[ec2-user@ip-172-31-16-77 day1]$ terraform fmt 
+ec2.tf
+outputs.tf
+providers.tf
+[ec2-user@ip-172-31-16-77 day1]$ 
+
+
+```
+### terraform destroy 
+
+```
+terraform  destroy 
+aws_instance.example: Refreshing state... [id=i-08f8830180b40602d]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following
+symbols:
+  - destroy
+
+Terraform will perform the following actions:
+
+  # aws_instance.example will be destroyed
+
+```
