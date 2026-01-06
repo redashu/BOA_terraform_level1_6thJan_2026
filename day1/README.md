@@ -90,3 +90,12 @@ hello1 = "Hello world from terraform by ashutoshh"
 
 ### https://registry.terraform.io/providers/hashicorp/aws/latest
 
+### terraform more commands
+
+```
+395  terraform  init 
+  396  ls 
+  397  ls -a
+  398  terraform plan 
+  399  terraform apply 
+```
