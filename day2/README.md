@@ -110,3 +110,8 @@ ashu-vm-publicIP = "44.193.39.58"
   502  history 
 
 ```
+
+### terraform tfstate storing it remotely 
+
+<img src="tfrm.png">
+
