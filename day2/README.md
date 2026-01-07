@@ -187,4 +187,13 @@ After doing this, you may fix the identity used for this commit with:
  create mode 100644 varirables.tf
 
  ```
- 
+
+ ### git 3 step process
+
+ ```
+  557  git add .
+  558  git commit  -m "vm name updates"
+  559  git push
+
+```
+
