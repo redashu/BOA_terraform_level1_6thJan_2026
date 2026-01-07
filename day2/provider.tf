@@ -10,7 +10,7 @@ terraform {
     bucket = "ashutoshh-jan26-terraform"
     key = "dev/ashutoshh/terraform.tfstate"
     encrypt = true
-    region = " us-west-1"
+    region = "us-west-1"
     dynamodb_table = "ashutoshh-locking-table1"
     
   }
