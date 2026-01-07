@@ -115,3 +115,43 @@ ashu-vm-publicIP = "44.193.39.58"
 
 <img src="tfrm.png">
 
+### some basic github repo operations 
+
+### clone repo 
+
+```
+git   clone https://github.com/redashu/boa-ashu-8thjan2026.git 
+Cloning into 'boa-ashu-8thjan2026'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+[ec2-user@ip-172-31-16-77 ashu-project]$ ls
+boa-ashu-8thjan2026  day1  day2  day3
+[ec2-user@ip-172-31-16-77 ashu-project]$ 
+
+```
+
+## Understanding clone 
+
+<img src="clone.png">
+
+
+### copy code to local repo 
+
+```
+[ec2-user@ip-172-31-16-77 ashu-project]$ ls
+boa-ashu-8thjan2026  day1  day2  day3
+[ec2-user@ip-172-31-16-77 ashu-project]$ 
+[ec2-user@ip-172-31-16-77 ashu-project]$ 
+[ec2-user@ip-172-31-16-77 ashu-project]$ ls  day2/
+ashu-values.tfvars  outputs.tf   stage.tfvars              terraform.tfvars
+ec2.tf              provider.tf  terraform.tfstate.backup  varirables.tf
+[ec2-user@ip-172-31-16-77 ashu-project]$ 
+[ec2-user@ip-172-31-16-77 ashu-project]$ cp day2/*.tf   boa-ashu-8thjan2026/
+[ec2-user@ip-172-31-16-77 ashu-project]$ 
+[ec2-user@ip-172-31-16-77 ashu-project]$ 
+[ec2-user@ip-172-31-16-77 ashu-project]$ cp day2/terraform.tfvars   boa-ashu-8thjan2026/
+[ec2-user@ip-172-31-16-77 ashu-project]$ 
+
+```
