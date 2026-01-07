@@ -1,18 +1,52 @@
-# BOA_terraform_level1_6thJan_2026
+## checking few details 
 
-## 🕘 Training Schedule (9:00 AM – 5:00 PM EST)
+```
+ec2-user@ip-172-31-16-77 ashu-project]$ ls
+day1  day2  day3
+[ec2-user@ip-172-31-16-77 ashu-project]$ cd day2
+[ec2-user@ip-172-31-16-77 day2]$ ls
+ec2.tf  provider.tf
+[ec2-user@ip-172-31-16-77 day2]$ terraform init 
+Initializing the backend...
+Initializing provider plugins...
+- Finding hashicorp/aws versions matching "6.27.0"...
+- Installing hashicorp/aws v6.27.0...
+- Installed hashicorp/aws v6.27.0 (signed by HashiCorp)
+Terraform has created a lock file .terraform.lock.hcl to record the provider
+selections it made above. Include this file in your version control repository
+so that Terraform can guarantee to make the same selections by default when
+you run "terraform init" in the future.
 
-### 🧩 Session Breakdown
+Terraform has been successfully initialized!
 
-- **Session 1:** 9:00 AM – 11:00 AM  
-- **Coffee Break:** 11:00 AM – 11:15 AM  
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
 
-- **Session 2:** 11:15 AM – 1:00 PM  
-- **Lunch Break:** 1:00 PM – 2:00 PM  
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.
+[ec2-user@ip-172-31-16-77 day2]$ 
+[ec2-user@ip-172-31-16-77 day2]$ 
+[ec2-user@ip-172-31-16-77 day2]$ 
+[ec2-user@ip-172-31-16-77 day2]$ 
+[ec2-user@ip-172-31-16-77 day2]$ 
+[ec2-user@ip-172-31-16-77 day2]$ ls
+ec2.tf  provider.tf
+[ec2-user@ip-172-31-16-77 day2]$ ls  -a
+.  ..  .terraform  .terraform.lock.hcl  ec2.tf  provider.tf
+[ec2-user@ip-172-31-16-77 day2]$ tree  .terraform
+.terraform
+└── providers
+    └── registry.terraform.io
+        └── hashicorp
+            └── aws
+                └── 6.27.0
+                    └── linux_amd64
+                        ├── LICENSE.txt
+                        └── terraform-provider-aws_v6.27.0_x5
 
-- **Session 3:** 2:00 PM – 3:30 PM  
-- **Coffee Break:** 3:30 PM – 3:50 PM  
+6 directories, 2 files
+[ec2-user@ip-172-31-16-77 day2]$ 
 
-- **Final Session:** 3:50 PM – 4:30 PM  
-
-- **Revision & Lab Practice:** 4:30 PM – 5:00 PM  
+```
