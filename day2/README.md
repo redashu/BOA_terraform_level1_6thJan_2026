@@ -94,3 +94,19 @@ ashu-vm-publicIP = "44.193.39.58"
 
 <img src="var1.png">
 
+### few more terraform commands
+
+```
+ 492  terraform apply  -var vm-name=ashutoshh-new-vm 
+  493  history 
+  494  terraform apply  -var vm-name=ashutoshh-new-vm  
+  495  history 
+  496  terraform plan  -var-file ashu-values.tfvars 
+  497  history 
+  498  terraform plan  -var-file=ashu-values.tfvars 
+  499  terraform plan  -var-file="ashu-values.tfvars" 
+  500  history 
+  501  terraform plan  -var-file  stage.tfvars 
+  502  history 
+
+```
