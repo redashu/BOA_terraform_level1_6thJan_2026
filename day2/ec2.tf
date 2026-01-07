@@ -1,8 +1,8 @@
 resource "aws_instance" "example" {
-  ami           = "ami-068c0051b15cdb816"
-  instance_type = "t3.micro"
+  ami           = var.ashu-ami
+  instance_type = var.vm-size
 
   tags = {
-    Name = "ashu-vm1"
+    Name = var.vm-name
   }
 }
