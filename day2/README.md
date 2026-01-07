@@ -155,3 +155,36 @@ ec2.tf              provider.tf  terraform.tfstate.backup  varirables.tf
 [ec2-user@ip-172-31-16-77 ashu-project]$ 
 
 ```
+### git add & commit 
+
+```
+ cd boa-ashu-8thjan2026/
+[ec2-user@ip-172-31-16-77 boa-ashu-8thjan2026]$ ls
+README.md  ec2.tf  outputs.tf  provider.tf  terraform.tfvars  varirables.tf
+[ec2-user@ip-172-31-16-77 boa-ashu-8thjan2026]$ git add  . 
+[ec2-user@ip-172-31-16-77 boa-ashu-8thjan2026]$ git commit  -m "sample terraform code"
+[master f4bcb39] sample terraform code
+ Committer: EC2 Default User <ec2-user@ip-172-31-16-77.ec2.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 83 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .terraform.lock.hcl
+ create mode 100644 ec2.tf
+ create mode 100644 outputs.tf
+ create mode 100644 provider.tf
+ create mode 100644 terraform.tfvars
+ create mode 100644 varirables.tf
+
+ ```
+ 
