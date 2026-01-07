@@ -50,3 +50,44 @@ ec2.tf  provider.tf
 [ec2-user@ip-172-31-16-77 day2]$ 
 
 ```
+
+## checking with fmt and validate 
+
+```
+ec2-user@ip-172-31-16-77 day2]$ ls
+ec2.tf  provider.tf
+[ec2-user@ip-172-31-16-77 day2]$ terraform  fmt
+provider.tf
+[ec2-user@ip-172-31-16-77 day2]$ terraform  validate
+Success! The configuration is valid.
+
+[ec2-user@ip-172-31-16-77 day2]$ terraform  validate
+╷
+│ Error: Missing required argument
+│ 
+│   with aws_instance.example,
+│   on ec2.tf line 1, in resource "aws_instance" "example":
+│    1: resource "aws_instance" "example" {
+│ 
+│ "ami": one of `ami,launch_template` must be specified
+╵
+[ec2-user@ip-172-31-16-77 day2]$ terraform  validate
+Success! The configuration is valid.
+
+[ec2-user@ip-172-31-16-77 day2]$ 
+
+```
+
+### to update output 
+
+```
+terraform apply 
+terraform output
+
+===>
+terraform output
+ashu-vm-id = "i-04d5555cdd4cbef48"
+ashu-vm-publicIP = "44.193.39.58"
+[ec2-user@ip-172-31-16-77 day2]$ 
+
+```
