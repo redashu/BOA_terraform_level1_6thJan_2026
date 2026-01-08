@@ -64,3 +64,21 @@ To https://github.com/redashu/boa-ashu-8thjan2026.git
 ### data source demo with vpc to security group
 
 <img src="ds.png">
+
+## understanding concept of branch in git
+
+<img src="br.png">
+
+### git commands 
+
+```
+ 630  git commit  -m "updates"
+  631  git push origin feature 
+  632  history 
+  633  git switch master 
+  634  ls
+  635  git merge
+  636  git merge  feature 
+  637  git push origin master 
+
+```
