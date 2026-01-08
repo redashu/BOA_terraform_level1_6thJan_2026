@@ -42,7 +42,7 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  1 file changed, 1 insertion(+), 1 deletion(-)
- 
+
 [ec2-user@ip-172-31-16-77 boa-ashu-8thjan2026]$ git  push 
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
@@ -56,3 +56,8 @@ To https://github.com/redashu/boa-ashu-8thjan2026.git
 [ec2-user@ip-172-31-16-77 boa-ashu-8thjan2026]$ 
 
 ```
+
+### Jenkins to automate Infra provision 
+
+<img src="infra1.png">
+
